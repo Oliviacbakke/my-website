@@ -8,11 +8,7 @@ export default function App() {
 <header className="py-12 text-center flex flex-col items-center">
   <div className="flex items-center gap-4">
     {/* Northwestern Logo with purple tint */}
-    <img 
-      src="/northwestern-logo.png" 
-      alt="Northwestern University Logo" 
-      className="h-12"
-    />
+   
     {/* Name with gradient text */}
     <h1 className="text-5xl font-extrabold tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-purple-300 to-purple-500 font-serif">
       Olivia Bakke
@@ -73,7 +69,7 @@ View on GitHub
       <p className="text-gray-400 text-sm">
 Designed and built a table gutter for a center for disabled adults for the Design Thinking and Communication course in fall 2025. Interviewed the client, collected project requirements, built prototypes, refined the final design, and delivered the completed design to the client.       </p>
 <a
-href="/hydro-catch.pdf"
+href="https://drive.google.com/file/d/1G28jGZnjMysX3VwySg_7SApmJByxtrrv/view?usp=sharing"
 target="_blank"
 rel="noopener noreferrer"
 className="inline-flex items-center gap-2 mt-2 text-purple-300 hover:text-purple-400 text-sm font-medium"
@@ -97,7 +93,7 @@ View Project PDF
           </h2>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="/resume-olivia-bakke.pdf"
+              href="https://drive.google.com/file/d/1fKXF5jEeLRqV3REw_Klg8_bkGPKq7XfH/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-500/20 hover:bg-purple-500/30 text-purple-200 px-6 py-4 rounded-xl font-medium transition shadow"
