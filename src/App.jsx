@@ -28,7 +28,7 @@ export default function App() {
             About Me
           </h2>
           <p className="leading-relaxed text-purple-100/90">
-            Hi! I’m Olivia, a computer science student in my first year at Northwestern University from Minneapolis, Minnesota.
+            Hi! I’m Olivia, a computer science student in my second year at Northwestern University from Minneapolis, Minnesota.
           </p>
         </section>
 
