@@ -28,7 +28,7 @@ export default function App() {
             About Me
           </h2>
           <p className="leading-relaxed text-purple-100/90">
-            Hi! I’m Olivia, a computer science student in my second year at Northwestern University from Minneapolis, Minnesota.
+            Hi! I’m Olivia, a computer science student in my second year at Northwestern University from Minneapolis, Minnesota. I am interested in software engineering and enjoy building projects that combine programming, engineering, and design. Through coursework and teaching experiences, I have worked with Python, C++, web development, and more!
           </p>
         </section>
 
@@ -39,18 +39,21 @@ export default function App() {
   </h2>
 
   <p className="text-gray-300 text-center mb-6">
-    Here are a few projects I've worked on recently. More coming soon!
+    A selection of software, engineering, and design projects from coursework and personal interests. More coming soon!
   </p>
 
   <div className="grid md:grid-cols-2 gap-6">
-    <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20">
+    <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20 flex flex-col">
       <h3 className="text-lg font-semibold text-purple-300 mb-2">
         Alarmageddon
       </h3>
-<p className="text-gray-400 text-sm mb-3">
+      <p className="text-purple-400 text-xs mb-2">
+  Photon 2 • JavaScript • HTML/CSS • Embedded Systems
+</p>
+<p className="text-gray-400 text-sm mb-3 flex-grow">
 Designed and programmed a “mobile alarm clock” car via Photon 2. The “clock” vehicle would drive away while the alarm sounded. Our group also created a corresponding web-UI to set the clock. </p>
 <a
-href="https://github.com/Oliviacbakke"
+href="https://github.com/Oliviacbakke/Final_Project_High_School"
 target="_blank"
 rel="noopener noreferrer"
 className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-400 text-sm font-medium"
@@ -62,14 +65,61 @@ View on GitHub
 </a>
     </div>
 
-    <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20">
+    <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20 flex flex-col">
+      <h3 className="text-lg font-semibold text-purple-300 mb-2">
+        Financial Outcomes Simulator
+      </h3>
+      <p className="text-purple-400 text-xs mb-2">
+  Python • Matplotlib • Object-Oriented Programming
+</p>
+<p className="text-gray-400 text-sm mb-3 flex-grow">
+Programmed a financial simulation in Python using object-oriented design to model savings, debt repayment, investing, and homeownership decisions. Generated graphs to analyze and compare wealth accumulation over a 40-year period. </p>
+<a
+href="https://github.com/Oliviacbakke/FinancialLiteracy/tree/main/Final%20Project"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-400 text-sm font-medium"
+>
+<svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+<path d="M12 .5C5.7.5.5 5.8.5 12.2c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.8 1.6 2.8 1.1.1-.7.4-1.1.7-1.3-2.5-.3-5.1-1.3-5.1-5.8 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.4.1-2.9 0 0 1-.3 3.3 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.5.2 2.6.1 2.9.8.9 1.2 2 1.2 3.3 0 4.5-2.6 5.5-5.1 5.8.4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.8 18.3.5 12 .5z" />
+</svg>
+View on GitHub
+</a>
+    </div>
+
+    <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20 flex flex-col">
       <h3 className="text-lg font-semibold text-purple-300 mb-2">
         HydroCatch
       </h3>
-      <p className="text-gray-400 text-sm">
-Designed and built a table gutter for a center for disabled adults for the Design Thinking and Communication course in fall 2025. Interviewed the client, collected project requirements, built prototypes, refined the final design, and delivered the completed design to the client.       </p>
+      <p className="text-purple-400 text-xs mb-2">
+  Prototyping • Client Research • Product Design
+</p>
+      <p className="text-gray-400 text-sm mb-3 flex-grow">
+Designed and built a table gutter for a center for disabled adults for the Design Thinking and Communication I course in Fall 2025. Interviewed the client, collected project requirements, built prototypes, refined the final design, and delivered the completed design to the client.       </p>
 <a
 href="https://drive.google.com/file/d/1G28jGZnjMysX3VwySg_7SApmJByxtrrv/view?usp=sharing"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-flex items-center gap-2 mt-2 text-purple-300 hover:text-purple-400 text-sm font-medium"
+>
+<svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 7h10M7 11h10M7 15h6M5 3h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2z" />
+</svg>
+View Project PDF
+</a>
+  </div>
+
+<div className="bg-black/30 rounded-xl p-6 border border-purple-500/20 flex flex-col">
+      <h3 className="text-lg font-semibold text-purple-300 mb-2">
+        HemLock
+      </h3>
+    <p className="text-purple-400 text-xs mb-2">
+  Product Design • Prototyping • User Experience
+</p>
+      <p className="text-gray-400 text-sm mb-3 flex-grow">
+Designed and prototyped a pin-button attachment to keep pant hems dry in wet weather for Design Thinking and Communication II in Spring 2026. Identified a common problem, developed project requirements, created and refined prototypes, and balanced practicality, comfort, and ease of use throughout the design process.    </p>
+<a
+href="https://drive.google.com/file/d/1bnO7S-jZZdjclp5CHjBrzEe3cRcc2nbR/view?usp=sharing"
 target="_blank"
 rel="noopener noreferrer"
 className="inline-flex items-center gap-2 mt-2 text-purple-300 hover:text-purple-400 text-sm font-medium"
@@ -84,8 +134,6 @@ View Project PDF
 </section>
 
 
-
-
         {/* Links */}
         <section className="bg-white/5 backdrop-blur rounded-2xl p-8 shadow-lg border border-purple-500/20 text-center">
           <h2 className="text-2xl font-semibold text-purple-400 mb-6">
@@ -93,7 +141,7 @@ View Project PDF
           </h2>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="https://drive.google.com/file/d/1fKXF5jEeLRqV3REw_Klg8_bkGPKq7XfH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1UQB7EU21bdvSN9HuUHxZDN6tq6ey1GVp/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-500/20 hover:bg-purple-500/30 text-purple-200 px-6 py-4 rounded-xl font-medium transition shadow"
