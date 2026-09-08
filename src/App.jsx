@@ -163,7 +163,7 @@ View Project PDF
           </h2>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="https://drive.google.com/file/d/1UQB7EU21bdvSN9HuUHxZDN6tq6ey1GVp/view?usp=sharing"
+              href="https://drive.google.com/file/d/1fKXF5jEeLRqV3REw_Klg8_bkGPKq7XfH/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-500/20 hover:bg-purple-500/30 text-purple-200 px-6 py-4 rounded-xl font-medium transition shadow"
