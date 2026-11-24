@@ -42,7 +42,39 @@ export default function App() {
     A selection of software, engineering, and design projects from coursework and personal interests.
   </p>
 
+
+
   <div className="grid md:grid-cols-2 gap-6">
+
+
+
+
+    <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20 flex flex-col">
+      <h3 className="text-lg font-semibold text-purple-300 mb-2">
+        AskFAERS
+      </h3>
+      <p className="text-purple-400 text-xs mb-2">
+        Python • SQLite • Claude API • Streamlit
+</p>
+<p className="text-gray-400 text-sm mb-3 flex-grow">
+Built a tool that answers plain-English questions about 809K FDA adverse event reports (drug names
+normalized to ingredients) by having Claude write SQL, with a read-only guard (table allowlist, query
+timeout, row cap) checking every query and safety caveats shown with every answer. </p>
+<a
+href="https://github.com/Oliviacbakke/AskFAERS"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-400 text-sm font-medium"
+>
+<svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
+<path d="M12 .5C5.7.5.5 5.8.5 12.2c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.8 1.6 2.8 1.1.1-.7.4-1.1.7-1.3-2.5-.3-5.1-1.3-5.1-5.8 0-1.3.5-2.4 1.2-3.3-.1-.3-.5-1.4.1-2.9 0 0 1-.3 3.3 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.3-1.5 3.3-1.2 3.3-1.2.6 1.5.2 2.6.1 2.9.8.9 1.2 2 1.2 3.3 0 4.5-2.6 5.5-5.1 5.8.4.3.8 1 .8 2.1v3.1c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.8 18.3.5 12 .5z" />
+</svg>
+View on GitHub
+</a>
+    </div>
+
+
+
     <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20 flex flex-col">
       <h3 className="text-lg font-semibold text-purple-300 mb-2">
         Alarmageddon
@@ -86,6 +118,11 @@ className="inline-flex items-center gap-2 text-purple-300 hover:text-purple-400 
 View on GitHub
 </a>
     </div>
+
+
+
+
+
 
     <div className="bg-black/30 rounded-xl p-6 border border-purple-500/20 flex flex-col">
       <h3 className="text-lg font-semibold text-purple-300 mb-2">
@@ -163,7 +200,7 @@ View Project PDF
           </h2>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
-              href="https://drive.google.com/file/d/1fKXF5jEeLRqV3REw_Klg8_bkGPKq7XfH/view?usp=sharing"
+              href="https://drive.google.com/file/d/1UQB7EU21bdvSN9HuUHxZDN6tq6ey1GVp/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-purple-500/20 hover:bg-purple-500/30 text-purple-200 px-6 py-4 rounded-xl font-medium transition shadow"
